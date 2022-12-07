@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" 
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+<body>
+<!-- Шапка сторінки-->
+  <header class="line-bg">
+    <div class="container head">
+      <a href="./index.html"class="logo">Web<span class="logo-black">Studio</span>
+      </a>
+      <nav>
+      <!-- Навігація на інші сторінки -->
+        <ul class="social-links">    
+          <li class="item">
+            <a class="link" href="./index.html">
+              <span class="active-page">Студія</span>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="item">
+            <a class="link" href="Контакти">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+        <ul class="social-links">
+          <li class="contact">
+            <a href="mailto:info@devstudio.com" class="contact-link">
+              <svg class="contact-icon email" widht="16" height="12">
+                <use href="./images/hw5/sprite1.svg#envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="contact">
+            <a href="tel:+380961111111" class="contact-link">
+              <svg class="contact-icon telephone" widht="10" height="16">
+                <use href="./images/hw5/sprite1.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11  
+            </a>
+          </li>
+        </ul>
+    </div>
+  </header> 
+<main>
+  <!-- Герой сторінка -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="text-hero">
+        Ефективні рішення для<br
+         />вашого бізнесу
+      </h1>
+      <button type="button" class="hero-btn" data-modal-open>Замовити послугу</button>
+    </div>
+  </section>
+  <!-- Переваги -->
+  <section class="features">
+    <div class="container page">
+      <ul class="info">
+        <li class="item">
+          <div class="fuatures-icon">
+            <svg class="info-icon" widht="70" height="70">
+              <use href="./images/hw5/sprite1.svg#antenna"></use>
+            </svg>
+          </div>
+          <h3 class="subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
+          <p class="text">Ідейні міркування, і навіть початок повсякденної роботи з  
+        </li>
+        <li class="item">
+          <div class="fuatures-icon">
+            <svg class="info-icon" widht="70" height="70">
+              <use href="./images/hw5/sprite1.svg#clock"></use>
+            </svg>
+          </div>
+          <h3 class="subtitle">ПУНКТУАЛЬНІСТЬ</h3>
+          <p class="text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+        </li>
+        <li class="item">
+          <div class="fuatures-icon">
+            <svg class="info-icon" widht="70" height="70">
+              <use href="./images/hw5/sprite1.svg#diagram"></use>
+            </svg>
+          </div>
+          <h3 class="subtitle">ПЛАНУВАННЯ</h3>
+          <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
+        </li>
+        <li class="item">
+          <div class="fuatures-icon">
+            <svg class="info-icon" widht="70" height="70">
+              <use href="./images/hw5/sprite1.svg#astronaut"></use>
+            </svg>
+          </div>
+          <h3 class="subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+          <p class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Види діяльності -->
+  <section class="work">
+    <div class="container">
+      <h2 class="title">Чим ми займаємося</h2>
+      <ul class="foto">
+        <li class="item">
+          <div class="foto-box">
+            <img class="process" 
+              src="./images/hw1/box1.jpg" 
+              alt="box 1" 
+              width="370"/>
+            <p class="work-text">Десктопні додатки</p>
+          </div>
+        </li>
+        <li class="item">
+          <div class="foto-box">
+            <img class="process" 
+              src="./images/hw1/box2.jpg" 
+              alt="box 2" 
+              width="370"/>
+            <p class="work-text">Мобільні додатки</p>
+          </div>
+        </li>
+        <li class="item">
+          <div class="foto-box">
+            <img class="process" 
+              src="./images/hw1/box3.jpg" 
+              alt="box 3" 
+              width="370"/>
+            <p class="work-text">Дизайнерські рішення</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Команда -->
+  <section class="command">
+    <div class="container">
+      <h2 class="title">Наша команда</h2>
+      <ul class="people">
+        <li class="item">
+          <img class="team" 
+          src="./images/hw1/ihor-demyanenko.jpg" 
+          alt="Ігор Дем'яненко" 
+          width="270" 
+          />
+          <div class="box">
+            <h3 class="subtitle">Ігор Дем'яненко</h3>
+            <p class="text" lang="en">Product Designer</p>
+            <ul class="link-list">
+              <li class="list-elips">
+                <a class="link-icon" href="https://www.instagram.com/">
+                  <svg class="elips-icon" widht="20" height="20">
+                    <use href="./images/hw5/sprite1.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-elips">
+                <a class="link-icon" href="https://twitter.com/">
+                  <svg class="elips-icon" widht="20" height="20">
+                    <use href="./images/hw5/sprite1.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-elips">
+                <a class="link-icon" href="https://www.facebook.com/">
+                  <svg class="elips-icon" widht="20" height="20">
+                    <use href="./images/hw5/sprite1.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-elips">
+                <a class="link-icon" href="https://ua.linkedin.com/">
+                  <svg class="elips-icon" widht="20" height="20">
+                    <use href="./images/hw5/sprite1.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="item">
+          <img class="team" 
+          src="./images/hw1/olga-repina.jpg" 
+          alt="Ольга Рєпіна" 
+          width="270" 
+          />
+          <div class="box">
+            <h3 class="subtitle">Ольга Рєпіна</h3>
+            <p class="text" lang="en">Frontend Developer</p>
+            <ul class="link-list">
+              <li class="list-elips">
+                <a class="link-icon" href="https://www.instagram.com/">
+                  <svg class="elips-icon" widht="20" height="20">
+                    <use href="./images/hw5/sprite1.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-elips">
+                <a class="link-icon" href="https://twitter.com/">
+                  <svg class="elips-icon" widht="20" height="20">
+                    <use href="./images/hw5/sprite1.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-elips">
+                <a class="link-icon" href="https://www.facebook.com/">
+                  <svg class="elips-icon" widht="20" height="20">
+                    <use href="./images/hw5/sprite1.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-elips">
+                <a class="link-icon" href="https://ua.linkedin.com/">
+                  <svg class="elips-icon" widht="20" height="20">
+                    <use href="./images/hw5/sprite1.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="item">
+          <img class="team" 
+          src="./images/hw1/mykola-tarasov.jpg" 
+          alt="Микола Тарасов" 
+          width="270" 
+          />
+          <div class="box">
+            <h3 class="subtitle">Микола Тарасов</h3>
+            <p class="text" lang="en">Marketing</p>
+            <ul class="link-list">
+              <li class="list-elips">
+                <a class="link-icon" href="https://www.instagram.com/">
+                  <svg class="elips-icon" widht="20" height="20">
+                    <use href="./images/hw5/sprite1.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-elips">
+                <a class="link-icon" href="https://twitter.com/">
+                  <svg class="elips-icon" widht="20" height="20">
+                    <use href="./images/hw5/sprite1.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-elips">
+                <a class="link-icon" href="https://www.facebook.com/">
+                  <svg class="elips-icon" widht="20" height="20">
+                    <use href="./images/hw5/sprite1.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-elips">
+                <a class="link-icon" href="https://ua.linkedin.com/">
+                  <svg class="elips-icon" widht="20" height="20">
+                    <use href="./images/hw5/sprite1.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="item">
+          <img class="team" 
+          src="./images/hw1/mykhailo-yermakov.jpg" 
+          alt="Михайло Єрмаков" 
+          width="270" 
+          />
+          <div class="box">
+            <h3 class="subtitle">Михайло Єрмаков</h3>
+            <p class="text" lang="en">UI Designer</p>
+            <ul class="link-list">
+              <li class="list-elips">
+                <a class="link-icon" href="https://www.instagram.com/">
+                  <svg class="elips-icon" widht="20" height="20">
+                    <use href="./images/hw5/sprite1.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-elips">
+                <a class="link-icon" href="https://twitter.com/">
+                  <svg class="elips-icon" widht="20" height="20">
+                    <use href="./images/hw5/sprite1.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-elips">
+                <a class="link-icon" href="https://www.facebook.com/">
+                  <svg class="elips-icon" widht="20" height="20">
+                    <use href="./images/hw5/sprite1.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-elips">
+                <a class="link-icon" href="https://ua.linkedin.com/">
+                  <svg class="elips-icon" widht="20" height="20">
+                    <use href="./images/hw5/sprite1.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!--  Постійні клієнти -->
+  <section class="clients">
+    <div class="container">
+      <h3 class="title">Постійні клієнти</h3>
+      <ul class="icons">
+        <li class="item">
+          <a class="icon-link" href="#">
+            <svg class="button-icon" widht="160" height="60">
+              <use href="./images/hw5/sprite1.svg#Logo1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="item">
+          <a class="icon-link" href="#">
+            <svg class="button-icon" widht="160" height="60">
+              <use href="./images/hw5/sprite1.svg#Logo2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="item">
+          <a class="icon-link" href="#">
+            <svg class="button-icon" widht="160" height="60">
+              <use href="./images/hw5/sprite1.svg#Logo3"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="item">
+          <a class="icon-link" href="#">
+            <svg class="button-icon" widht="160" height="60">
+              <use href="./images/hw5/sprite1.svg#Logo4"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="item">
+          <a class="icon-link" href="#">
+            <svg class="button-icon" widht="160" height="60">
+              <use href="./images/hw5/sprite1.svg#Logo5"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="item">
+          <a class="icon-link" href="#">
+            <svg class="button-icon" widht="160" height="60">
+              <use href="./images/hw5/sprite1.svg#Logo6"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </section>
+</main>
+<!-- Футер -->
+  <footer class="footer-backgroud">
+    <div class="container general">
+      <div class="footer-container">
+        <a href="./index.html" lang="en" class="logo">Web<span class="logo-white">Studio</span></a>
+          <address>
+            <ul class="footer-contact">
+              <li class="item">
+                <a href="https://goo.gl/maps/koyC8CYyR4xrzrLMA" target="_blank" rel="address" class="address">м. Київ, пр-т Лесі Українки, 26</a>
+              </li>
+              <li class="item">
+                <a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a>
+              </li>
+              <li class="item">
+                <a href="tel:+380961111111" class="contact">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+      </div>
+      <div class="social-networks-container">
+        <span class="subtitle">ПРИЄДНУЙТЕСЬ</span>
+        <ul class="link-list-footer">
+          <li class="list-elips-footer">
+            <a class="link-icon-footer" href="https://www.instagram.com/">
+              <svg class="elips-icon-footer" widht="20" height="20">
+                <use href="./images/hw5/sprite1.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="list-elips-footer">
+            <a class="link-icon-footer" href="https://twitter.com/">
+              <svg class="elips-icon-footer" widht="20" height="20">
+                <use href="./images/hw5/sprite1.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="list-elips-footer">
+            <a class="link-icon-footer" href="https://www.facebook.com/">
+              <svg class="elips-icon-footer" widht="20" height="20">
+                <use href="./images/hw5/sprite1.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="list-elips-footer">
+            <a class="link-icon-footer" href="https://ua.linkedin.com/">
+              <svg class="elips-icon-footer" widht="20" height="20">
+                <use href="./images/hw5/sprite1.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+     <button type="button" class="modal-close" data-modal-close>
+         <svg class="btn-close-icon" widht="18" height="18">
+             <use href="./images/hw5/sprite1.svg#close-black"></use>
+         </svg>
+     </button>
+    </div>
+    </div>
+  <script src="./js/modal.js"></script>
+</body>
+</html>
+
